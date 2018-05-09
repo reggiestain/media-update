@@ -22,4 +22,3 @@ Run the  Contact Management Application on your web server and login with the de
 Email: reggiestain@gmail.com
 Password: 123456
 
-
