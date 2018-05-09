@@ -27,7 +27,8 @@ $cakeDescription = '';
         <!-- Bootstrap Docs -->
         <link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" media="screen">
         <!-- Bootstrap -->
-        <?php echo $this->Html->css('bootstrap.min.css');?>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <?php //echo $this->Html->css('bootstrap.min.css');?>
         <?php echo $this->Html->css('jquery.dataTables.css') ;?>
         <?php echo $this->Html->css('bootstrap-theme.min.css');?>
         <?php echo $this->Html->css('font-awesome.min.css');?>
@@ -53,8 +54,11 @@ $cakeDescription = '';
         </div>
         <?php echo $this->element('footer');?>
         <!-- Include JS files --> 
-        <?php echo $this->Html->script('twitter-bootstrap-hover-dropdown.min');?>
-        <?php echo $this->Html->script('bootstrap-admin-theme-change-size');?>       
+        <?php //echo $this->Html->script('twitter-bootstrap-hover-dropdown.min');?>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <?php echo $this->Html->script('bootstrap-admin-theme-change-size');?>   
+        
         <?php echo $this->Html->script('bootstrap-datepicker.min');?>
         
     </body>
