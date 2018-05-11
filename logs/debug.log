@@ -33,3 +33,516 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
 
 
 
+2018-05-11 13:25:29 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:25:55 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:27:30 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:27:44 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:29:42 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:32:04 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:33:55 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:34:35 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:34:48 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:35:48 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:36:14 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:39:45 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/users/dashboard
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:39:50 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:41:34 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:44:46 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:45:08 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:45:56 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:46:49 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:47:23 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:47:53 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:50:11 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:51:23 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:52:20 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:52:50 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:54:42 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:55:02 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/view
+Referer URL: http://10.11.12.50/socialmedia/add
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-05-11 13:55:33 Notice: Notice (8): Undefined variable: title in [/vagrant/project/src/Template/Layout/dashboard.ctp, line 24]
+Request URL: /socialmedia/add
+Referer URL: http://10.11.12.50/socialmedia/view
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+include - APP/Template/Layout/dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 644
+Cake\View\View::render() - CORE/src/View/View.php, line 602
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+

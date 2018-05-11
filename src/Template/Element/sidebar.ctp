@@ -30,8 +30,8 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-suitcase"></i>Manage Social Accounts</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-user-plus"></i><a href="ui-buttons.html">Add</a></li>
-                            <li><i class="fa fa-eye"></i><a href="ui-badges.html">View</a></li>
+                            <li><i class="fa fa-user-plus"></i><a href="<?php echo \Cake\Routing\Router::Url('/socialmedia/add');?>">Add</a></li>
+                            <li><i class="fa fa-eye"></i><a href="<?php echo \Cake\Routing\Router::Url('/socialmedia/view');?>">View</a></li>
                             <!--<li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>
                             <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">Social Buttons</a></li>
                             <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li>

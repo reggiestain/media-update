@@ -30,19 +30,13 @@ use Cake\Network\Request;
  *
  * @link http://book.cakephp.org/3.0/en/controllers/pages-controller.html
  */
-class UsersController extends AppController {
+class SocialmediaController extends AppController {
 
-    /**
-     * Displays a view
-     *
-     * @return void|\Cake\Network\Response
-     * @throws \Cake\Network\Exception\NotFoundException When the view file could not
-     *   be found or \Cake\View\Exception\MissingTemplateException in debug mode.
-     * 
-     */
-    public $username;
-    public $email;
     
+    public $name;
+    public $url;
+    public $key;
+
     public function beforeFilter(\Cake\Event\Event $event) {
         parent::beforeFilter($event);
         $this->Auth->allow(['signup']);
@@ -50,44 +44,10 @@ class UsersController extends AppController {
         $this->ProfilesTable = TableRegistry::get('profiles');
         $this->ContactTypeTable = TableRegistry::get('contact_type');
         $this->username = $this->Auth->user('username');
-    }
-    
-    /**
-     * 
-     * @return type
-     */
-    public function login() {
-        $user = $this->UsersTable->newEntity($this->request->data);
-        if ($this->request->is('post')) {
-            $user = $this->Auth->identify();
-            if ($user) {
-                $this->Auth->setUser($user);
-                $this->Flash->success(__('Welcome , ' . $this->Auth->user('email')));
-                return $this->redirect(['action' => 'dashboard']);
-            }
-            $this->Flash->error(__('Invalid email or password.'));
-        }
-        $this->set('users', $user);
-        $this->set('title', 'Login');
-        
-    }
-
-    public function dashboard() {
-        $Profile = $this->ProfilesTable->find()->where(['user_id' => $this->Auth->user('id')])->contain(['ContactType']);
-        $profile = $this->ProfilesTable->newEntity();
-        $contactType = $this->ContactTypeTable->find('list');
-        $id = $this->Auth->user('id');
-        $this->set("id", $id);
-        $this->set('profile', $profile);
-        $this->set('contactType', $contactType);
-        $this->set('username', $this->username);
-        $this->set('Profile', $Profile);
-        $this->set('title', 'Dashboard');
         $this->viewBuilder()->layout('dashboard');
     }
 
     public function add() {
-        if ($this->request->is('ajax')) {
             $ProfileEntity = $this->ProfilesTable->newEntity();
             $ProfileData = ['firstname' => $this->request->data('firstname'), 'surname' => $this->request->data('surname'), 'mobile' => $this->request->data('mobile'), 'email' => $this->request->data('email'), 'password' => $this->request->data('password'),
                 'confirm_pass' => $this->request->data('confirm_pass'), 'contact_type_id' => $this->request->data('contact_type_id'), 'date_of_birth' => $this->request->data('date_of_birth'), 'user_id' => $this->Auth->user('id')];
@@ -113,20 +73,22 @@ class UsersController extends AppController {
             $this->set("status", $status);
             $this->set("message", $message);
             $this->set('_serialize', ['status', 'message']);
-            $this->viewBuilder()->layout(false);
-        }
+            
     }
 
     /**
      * 
      * @param type $id
      */
-    public function view($id) {
+    public function view() {
+        /*
         $Profile = $this->get_profile($id);
         $ContactType = $this->ContactTypeTable->find('list');
         $this->set('ContactType', $ContactType);
         $this->set('Profile', $Profile);
         $this->viewBuilder()->layout(false);
+         * 
+         */
     }
 
     /**
