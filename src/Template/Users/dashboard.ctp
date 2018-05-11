@@ -46,7 +46,10 @@ use Cake\Network\Exception\NotFoundException;
                 if($session->check('Flash.flash')){
                 ?>
                 <div class="alert  alert-success alert-dismissible fade show" role="alert">
-                    <?php echo "Welcome, ",$username;?>
+                  <?php
+                   echo $this->Flash->render();
+                   echo $this->Flash->render('auth');
+                   ?>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
