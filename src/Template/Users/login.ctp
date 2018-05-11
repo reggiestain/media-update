@@ -20,27 +20,87 @@ use Cake\Error\Debugger;
 use Cake\Network\Exception\NotFoundException;
 ?>
 
-<div class="container" style="background-color:gray">        
+<!--<div class="container" style="background-color:gray">        
     <div class="row vertical-center-row">         
                 <?php 
+                /*
                 echo $this->Form->create($users,['class'=>'bootstrap-admin-login-form']);
                 echo $this->Flash->render();
                 echo $this->Flash->render('auth');
+                 * 
+                 */
                 ?> 
                 <h4>Sign In</h4>
                 <div class="input-group">
-                    <?php echo $this->Form->input('email', ['templates' => ['inputContainer' => '{{content}}'],'type' => 'text','label' => false,'class'=>'form-control','placeholder'=>'E-mail','required' =>true]);?>
+                    <?php //echo $this->Form->input('email', ['templates' => ['inputContainer' => '{{content}}'],'type' => 'text','label' => false,'class'=>'form-control','placeholder'=>'E-mail','required' =>true]);?>
                     <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
                 </div>
                 <br>                
                 <div class="input-group">             
-                    <?php echo $this->Form->input('password',['templates' => ['inputContainer' => '{{content}}'],'type' => 'password','label' => false,'class'=>'form-control','placeholder'=>'Password','required' =>true]);?>
+                    <?php //echo $this->Form->input('password',['templates' => ['inputContainer' => '{{content}}'],'type' => 'password','label' => false,'class'=>'form-control','placeholder'=>'Password','required' =>true]);?>
                     <span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
                 </div>
                 <div class="form-group">
                                                       
                 </div>
                 <input type="submit" class="btn btn-primary" value="Login"r>
-          <?php echo $this->Form->end();?>       
+          <?php //echo $this->Form->end();?>       
         </div>    
+    </div>-->
+
+<div class="sufee-login d-flex align-content-center flex-wrap">
+    <div class="container">
+        <div class="login-content">
+            <div class="login-logo">
+                <a href="index.html">
+                    <img class="align-content" src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="login-form">
+                <?php 
+                echo $this->Form->create($users);
+                $session = $this->request->session();
+                ?>
+                <?php if($session->check('Flash.flash')){?>
+                <div class="alert  alert-success alert-dismissible fade show" role="alert">
+                  <?php
+                   echo $this->Flash->render();
+                   echo $this->Flash->render('auth');
+                   ?>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <?php } ?>
+                <div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" name="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" name="password" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember Me
+                    </label>
+                    <label class="pull-right">
+                        <a href="#">Forgotten Password?</a>
+                    </label>
+
+                </div>
+                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+                <div class="social-login-content">
+                    <div class="social-button">
+                        <button type="button" class="btn social facebook btn-flat btn-addon mb-3"><i class="ti-facebook"></i>Sign in with facebook</button>
+                        <button type="button" class="btn social twitter btn-flat btn-addon mt-2"><i class="ti-twitter"></i>Sign in with twitter</button>
+                    </div>
+                </div>
+                <div class="register-link m-t-15 text-center">
+                    <p>Don't have account ? <a href="#"> Sign Up Here</a></p>
+                </div>
+               <?php echo $this->Form->end();?>
+            </div>
+        </div>
     </div>
+</div>

@@ -45,15 +45,15 @@ $cakeDescription = '';
         <!-- Custom styles -->        
     </head>
     <body>
-       <?php echo $this->element('admin-header');?>
-
+        <!-- Right Panel -->
+        
+       <?php echo $this->element('sidebar');?>
+        <div id="right-panel" class="right-panel">
+       <?php echo $this->element('header');?>
        <?php echo $this->fetch('content');?>
-
+        </div>
+        <!-- /#right-panel -->
        <?php //echo $this->element('footer');?>
-        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
         <?php echo $this->Html->script('vendor/jquery-2.1.4.min');?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
         <?php echo $this->Html->script('plugins');?>

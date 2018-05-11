@@ -19,28 +19,46 @@
 $cakeDescription = '';
 ?>
 <!DOCTYPE html>
-<html class="bootstrap-admin-vertical-centered">
+<html>
     <head>
         <title><?php echo $title;?></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" media="screen">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sufee Admin - HTML5 Admin Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
         <!-- Bootstrap -->
-        <?php echo $this->Html->css('bootstrap.min.css') ;?>
-        <?php echo $this->Html->css('bootstrap-theme.min.css') ;?>
-        <?php echo $this->Html->css('font-awesome.min.css') ;?>
-        <?php echo $this->Html->css('cake-style.css') ;?>    
-        <?php echo $this->Html->css('datepicker.min.css');?>
-        <?php echo $this->Html->css('bootstrap-admin-theme.css') ;?>
-        <?php echo $this->Html->css('bootstrap-admin-theme-change-size.css') ;?>
-        <?php echo $this->Html->script('jquery');?>
-        <?php echo $this->Html->script('bootstrap.min');?>        
+        <?php echo $this->Html->css('normalize.css') ;?>
+        <?php echo $this->Html->css('bootstrap.min.css');?>
+        <?php echo $this->Html->css('font-awesome.min.css');?>
+        <?php //echo $this->Html->css('cake-style.css') ;?>                  
+        <!-- Bootstrap Admin Theme -->
+        <?php echo $this->Html->css('themify-icons.css') ;?>
+        <?php echo $this->Html->css('flag-icon.min.css');?>       
+        <?php echo $this->Html->css('cs-skin-elastic.css');?>
+        <?php echo $this->Html->css('scss/style.css');?>
+        <?php echo $this->Html->css('lib/vector-map/jqvmap.min.css');?>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+        <!-- Custom styles -->        
     </head>
-    <body class="bootstrap-admin-without-padding">    
-    <?php echo $this->fetch('content');?>
-        <!-- Include JS files --> 
-        <?php echo $this->Html->script('twitter-bootstrap-hover-dropdown.min');?>
-        <?php echo $this->Html->script('bootstrap-admin-theme-change-size');?>
-        <?php echo $this->Html->script('bootstrap-datepicker.min');?>
+    <body class="bg-dark">
+       <?php echo $this->fetch('content');?>
+       <?php //echo $this->element('footer');?>
+        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+        <?php echo $this->Html->script('vendor/jquery-2.1.4.min');?>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+        <?php echo $this->Html->script('plugins');?>
+        <?php echo $this->Html->script('main');?>       
+
+        <?php echo $this->Html->script('lib/chart-js/Chart.bundle');?>   
+        <?php echo $this->Html->script('dashboard.js');?> 
+        <?php echo $this->Html->script('widgets');?>  
+        <?php echo $this->Html->script('lib/vector-map/jquery.vmap');?> 
+        <?php echo $this->Html->script('lib/vector-map/jquery.vmap.min');?>  
+        <?php echo $this->Html->script('lib/vector-map/jquery.vmap.sampledata');?>
+        <?php echo $this->Html->script('lib/vector-map/country/jquery.vmap.world');?>
     </body>
 </html>
