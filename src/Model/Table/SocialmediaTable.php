@@ -44,8 +44,9 @@ class SocialmediaTable extends Table {
     }
 
     public function validationDefault(Validator $validator) {
-        $validator->notEmpty('email', 'First name is required.')
-                ->notEmpty('password', 'Password is required.');
+        $validator->notEmpty('socialmedia_type', 'First name is required.')
+                  ->notEmpty('app_id', 'app_id is required.')
+                  ->notEmpty('app_secret', 'app_secret is required.');
                 
         return $validator;
     }

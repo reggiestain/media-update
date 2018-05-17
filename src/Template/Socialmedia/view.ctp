@@ -31,34 +31,48 @@ use Cake\Network\Exception\NotFoundException;
                         <div class="card-header">
                             <strong class="card-title">Social Media Details</strong>
                         </div>
-                        <div class="card-body">
+                  <div class="card-body">
+                <?php $session = $this->request->session();?>
+                <?php if($session->check('Flash.flash')){?>
+                <div class="alert  alert-success alert-dismissible fade show" role="alert">
+                  <?php
+                   echo $this->Flash->render();
+                   echo $this->Flash->render('auth');
+                   ?>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <?php } ?>
                   <table id="bootstrap-data-table" class="table table-striped table-bordered">
                     <thead>
                       <tr>
                         <th>#ID</th>
                         <th>Name</th>
                         <th>App ID</th>
-                        <th>App Secret</th>
-                        <th>App URL</th>
-                        <th>Date</th>
+                        <th>App Secret</th>                       
+                        <th>Created</th>
+                        <th>Modified</th>
                         <th>Actions</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                          <td>22</td>
-                        <td>Facebook</td>
-                        <td>377838838383</td>
-                        <td>464</td>
-                        <td>https://facebook/reggggee</td>
-                        <td>Date</td>
+                      <?php foreach ($Socialmedia as $mediaInfo) {?>  
+                      <tr>                                              
+                        <td><?php echo $mediaInfo->id;?></td>
+                        <td><?php echo $mediaInfo->app_id;?></td>
+                        <td><?php echo $mediaInfo->app_id;?></td>
+                        <td><?php echo $mediaInfo->app_secret;?></td>
+                        <!--<td><?php //echo $mediaInfo->url;?></td>-->
+                        <td><?php echo $mediaInfo->created;?></td>
+                        <td><?php echo $mediaInfo->modified;?></td>
                         <td>
                             <a href="#" class="btn btn-success btn-sm"><span class="fa fa-eye"></span></a>    
                             <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-pencil"></span></a>
                             <a href="#" class="btn btn-danger btn-sm"><span class="fa fa-remove"></span></a>
-                        </td>
-                      </tr>
-                      
+                        </td>                       
+                      </tr>   
+                      <?php } ?>
                     </tbody>
                   </table>
                         </div>

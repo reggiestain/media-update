@@ -21,6 +21,8 @@ use Cake\ORM\TableRegistry;
 use Cake\Controller\Controller;
 use Cake\Event\Event;
 use Cake\Network\Exception\NotFoundException;
+use Facebook\Facebook as fb;
+use Cake\Http\Client;
 
 /**
  * Application Controller
@@ -39,12 +41,12 @@ class AppController extends Controller {
      *
      * @return void
      */
-    
     public $UsersTable;
     public $ProfilesTable;
     public $LanguagesTable;
     public $Datetime;
-    
+    private $SocialmediaTable;
+
     public function initialize() {
 
         $this->loadComponent('RequestHandler');
@@ -68,10 +70,37 @@ class AppController extends Controller {
             ]
         ]);
     }
-    
-    public function get_profile($id){
-        $Profile = $this->ProfilesTable->get($id, ['contain' => ['ContactType']]);
-        return $Profile;     
+
+    public function fb_config($appId, $appSecret) {
+        $fb = new fb([
+            'app_id' => $appId,
+            'app_secret' => $appSecret,
+            'default_graph_version' => 'v2.10',
+                //'default_access_token' => $appId|$appSecret
+        ]);
+
+        return $fb;
+    }
+
+    public function fb_acc($appId, $appSecret) {
+        $fb = $this->fb_config($appId, $appSecret);
+        $helper = $fb->getRedirectLoginHelper();
+
+        $permissions = ['email']; // Optional permissions
+        $loginUrl = $helper->getLoginUrl('https://siyanontech.co.za/fb-callback.php', $permissions);
+        echo '<a href="' . htmlspecialchars($loginUrl) . '">Log in with Facebook!</a>';
+        exit();
+        //return $response;
+    }
+
+    public function rest_api($appId, $appSecret, $accessToken) {
+        $fb = $this->fb_config($appId, $appSecret, $accessToken);
+        $token = $fb->getApp()->getAccessToken();
+        $http = new Client();
+        $response = $http->get('https://graph.facebook.com/v2.11/' . $token . '/photos', [
+            'auth' => ['app_id' => $appId, 'app_secret' => $appSecret]
+        ]);
+        return $response;
     }
 
 }

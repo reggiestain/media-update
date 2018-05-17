@@ -679,3 +679,1593 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
 
 
 
+2018-05-12 14:09:12 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:47:09 Notice: Notice (8): Undefined variable: message in [C:\wamp64\www\mediaAdmin\src\Controller\SocialmediaController.php, line 78]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\SocialmediaController::add() - APP/Controller\SocialmediaController.php, line 78
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:47:09 Notice: Notice (8): Undefined variable: addresses in [C:\wamp64\www\mediaAdmin\src\Template\Socialmedia\add.ctp, line 34]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Socialmedia\add.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::render() - CORE\src\View\View.php, line 597
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:47:09 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:47:31 Notice: Notice (8): Undefined variable: addresses in [C:\wamp64\www\mediaAdmin\src\Template\Socialmedia\add.ctp, line 34]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Socialmedia\add.ctp, line 34
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::render() - CORE\src\View\View.php, line 597
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:47:31 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:47:55 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:48:23 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:52:38 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:53:28 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:55:20 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:56:07 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 14:57:46 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:01:46 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:02:04 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:03:11 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:05:52 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:07:12 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:08:19 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:08:54 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:09:46 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:11:15 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 15:11:25 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:20:20 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:23:41 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\mediaAdmin\src\Template\Socialmedia\add.ctp, line 28]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Socialmedia\add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::render() - CORE\src\View\View.php, line 597
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:23:42 Notice: Notice (8): Undefined variable: session in [C:\wamp64\www\mediaAdmin\src\Template\Socialmedia\add.ctp, line 28]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Socialmedia\add.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::render() - CORE\src\View\View.php, line 597
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:24:36 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:36:18 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:36:33 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:37:29 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:39:22 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:40:59 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:41:06 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:41:16 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:41:34 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:42:11 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:42:28 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:42:35 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:42:54 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:43:24 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:52:06 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:54:34 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:55:08 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:55:53 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:56:43 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:57:32 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:58:19 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 18:59:03 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:00:13 Notice: Notice (8): Undefined variable: users in [C:\wamp64\www\mediaAdmin\src\Template\Socialmedia\view.ctp, line 36]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Socialmedia\view.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::render() - CORE\src\View\View.php, line 597
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:00:13 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:00:56 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:01:05 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/add
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:01:28 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:02:31 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:02:39 Notice: Notice (8): Undefined variable: title in [C:\wamp64\www\mediaAdmin\src\Template\Layout\dashboard.ctp, line 24]
+Request URL: /mediaAdmin/socialmedia/view
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\dashboard.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1014
+Cake\View\View::_render() - CORE\src\View\View.php, line 973
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 644
+Cake\View\View::render() - CORE\src\View\View.php, line 602
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:10:12 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 49]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\FacebookApp::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 49
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:10:12 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 51]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\FacebookApp::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 51
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:10:50 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 49]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\FacebookApp::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 49
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 19:10:50 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 51]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\FacebookApp::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 51
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 20:56:33 Notice: Notice (8): Undefined variable: user in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 88]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 88
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:09:53 Notice: Notice (8): Undefined variable: response in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 78]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 78
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:09:54 Notice: Notice (8): Undefined variable: response in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 78]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 78
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:10:51 Notice: Notice (8): Undefined variable: appId in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:10:51 Notice: Notice (8): Undefined variable: appSecret in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:10:51 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:10:52 Notice: Notice (8): Undefined variable: appId in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:10:52 Notice: Notice (8): Undefined variable: appSecret in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:10:52 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:29:50 Notice: Notice (8): Undefined variable: appId in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:29:50 Notice: Notice (8): Undefined variable: appSecret in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:29:50 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:29:52 Notice: Notice (8): Undefined variable: appId in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:29:52 Notice: Notice (8): Undefined variable: appSecret in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:29:52 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 76]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 76
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:37:48 Notice: Notice (8): Undefined variable: {
+    "id": 1,
+    "user_id": 12,
+    "socialmedia_type_id": 1,
+    "access_token": "EAAEE9eT5BNsBAJOXLNCNJnEkDi5Pl9pnIFOxZAoINb6Mz3W811OkhCKlnlVPGp3RHrGHa3l7FGZAWDtr9F6gBDoxe6f0MYZCPDmqV6dv5pKas4lldZAFopsMAPS6SeALDqASz8ZBpfYcvtpKIAlJiAIBOEnPKhfhH4ZCkbZAvVh4coC9igTruF5FZAkUC4qAu4cZD",
+    "app_id": "286929131734235",
+    "app_secret": "EAAEE9eT5BNsBAJOXLNCNJnEkDi5Pl9pnIFOxZAoINb6Mz3W811OkhCKlnlVPGp3RHrGHa3l7FGZAWDtr9F6gBDoxe6f0MYZCPDmqV6dv5pKas4lldZAFopsMAPS6SeALDqASz8ZBpfYcvtpKIAlJiAIBOEnPKhfhH4ZCkbZAvVh4coC9igTruF5FZAkUC4qAu4cZD",
+    "created": "2018-05-12T18:43:23+00:00",
+    "modified": "2018-05-12T18:43:23+00:00"
+} in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 79]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:37:48 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 79]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 79
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:42:16 Notice: Notice (8): Undefined variable: response in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 80]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 21:42:17 Notice: Notice (8): Undefined variable: response in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 80]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-12 22:21:05 Notice: Notice (8): Undefined property: Facebook\GraphNodes\GraphEdge::$id in [C:\wamp64\www\mediaAdmin\src\Controller\UsersController.php, line 81]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/socialmedia/view
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 81
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:15:40 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 49]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\FacebookApp::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 49
+App\Controller\AppController::rest_api() - APP/Controller\AppController.php, line 99
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:15:40 Notice: Notice (8): Undefined variable: id in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 51]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\FacebookApp::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\FacebookApp.php, line 51
+App\Controller\AppController::rest_api() - APP/Controller\AppController.php, line 99
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:21:55 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 105]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::rest_api() - APP/Controller\AppController.php, line 105
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:21:56 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 105]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::rest_api() - APP/Controller\AppController.php, line 105
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:22:31 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 106]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::rest_api() - APP/Controller\AppController.php, line 106
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:36:31 Notice: Notice (8): Undefined variable: appId in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:36:31 Notice: Notice (8): Undefined variable: appSecret in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:36:31 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:36:32 Notice: Notice (8): Undefined variable: appId in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:36:32 Notice: Notice (8): Undefined variable: appSecret in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 12:36:32 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 13:56:20 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 79]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_config() - APP/Controller\AppController.php, line 79
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 14:05:56 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\Authentication\AccessToken.php, line 55]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\Authentication\AccessToken::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\Authentication\AccessToken.php, line 55
+App\Controller\AppController::fb_config() - APP/Controller\AppController.php, line 83
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 91
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 14:08:12 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\vendor\facebook\graph-sdk\src\Facebook\Authentication\AccessToken.php, line 55]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Facebook\Authentication\AccessToken::__construct() - ROOT\vendor\facebook\graph-sdk\src\Facebook\Authentication\AccessToken.php, line 55
+App\Controller\AppController::fb_config() - APP/Controller\AppController.php, line 83
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 91
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 14:15:29 Notice: Notice (8): Undefined variable: accessToken in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 15:34:06 Notice: Notice (8): Undefined variable: fb in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2018-05-13 15:34:06 Notice: Notice (8): Undefined variable: fb in [C:\wamp64\www\mediaAdmin\src\Controller\AppController.php, line 87]
+Request URL: /mediaAdmin/users/dashboard
+Referer URL: http://localhost/mediaAdmin/users/dashboard
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_acc() - APP/Controller\AppController.php, line 87
+App\Controller\UsersController::dashboard() - APP/Controller\UsersController.php, line 80
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 60
+[main] - ROOT\webroot\index.php, line 36
+
+
+

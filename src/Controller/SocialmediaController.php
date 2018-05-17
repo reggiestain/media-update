@@ -42,23 +42,27 @@ class SocialmediaController extends AppController {
         $this->Auth->allow(['signup']);
         $this->UsersTable = TableRegistry::get('users');
         $this->ProfilesTable = TableRegistry::get('profiles');
-        $this->ContactTypeTable = TableRegistry::get('contact_type');
+        $this->SocialmediaTable = TableRegistry::get('socialmedia');
+        $this->SocialTypeTable = TableRegistry::get('socialmedia_types');
         $this->username = $this->Auth->user('username');
         $this->viewBuilder()->layout('dashboard');
     }
 
-    public function add() {
-            $ProfileEntity = $this->ProfilesTable->newEntity();
-            $ProfileData = ['firstname' => $this->request->data('firstname'), 'surname' => $this->request->data('surname'), 'mobile' => $this->request->data('mobile'), 'email' => $this->request->data('email'), 'password' => $this->request->data('password'),
-                'confirm_pass' => $this->request->data('confirm_pass'), 'contact_type_id' => $this->request->data('contact_type_id'), 'date_of_birth' => $this->request->data('date_of_birth'), 'user_id' => $this->Auth->user('id')];
-            $Profile = $this->ProfilesTable->patchEntity($ProfileEntity, $ProfileData);
-            if (empty($Profile->errors())) {
-                $this->ProfilesTable->save($Profile);
-                $status = '200';
-                $message = '';
-            } else {
-                $error_msg = [];
-                foreach ($Profile->errors() as $errors) {
+    public function add() {           
+            $SocialmediaEntity = $this->SocialmediaTable->newEntity();
+            $SocialmediaType = $this->SocialTypeTable->find('list');
+            $error_msg = [];
+            $user =['user_id'=>$this->Auth->user('id')];
+            if ($this->request->is('post')) {
+                $data = $this->request->data();
+                $data->user_id = $this->Auth->user('id');
+            $Socialmedia = $this->SocialmediaTable->patchEntity($SocialmediaEntity, $data);
+            if (empty($Socialmedia->errors())) {
+                $this->SocialmediaTable->save($Socialmedia);
+                $this->Flash->success(__('Social Media Info has been saved successfully.'));
+                return $this->redirect(['action' => 'view']);
+            } else {                
+                foreach ($Socialmedia->errors() as $errors) {
                     if (is_array($errors)) {
                         foreach ($errors as $error) {
                             $error_msg[] = $error;
@@ -67,13 +71,11 @@ class SocialmediaController extends AppController {
                         $error_msg[] = $errors;
                     }
                 }
-                $status = 'error';
-                $message = $error_msg;
+               }
             }
-            $this->set("status", $status);
-            $this->set("message", $message);
-            $this->set('_serialize', ['status', 'message']);
-            
+            $this->set("Socialmedia", $SocialmediaEntity);
+            $this->set("SocialmediaType", $SocialmediaType);     
+            $this->set("error_msg", $error_msg); 
     }
 
     /**
@@ -81,14 +83,8 @@ class SocialmediaController extends AppController {
      * @param type $id
      */
     public function view() {
-        /*
-        $Profile = $this->get_profile($id);
-        $ContactType = $this->ContactTypeTable->find('list');
-        $this->set('ContactType', $ContactType);
-        $this->set('Profile', $Profile);
-        $this->viewBuilder()->layout(false);
-         * 
-         */
+        $Socialmedia = $this->SocialmediaTable->find();
+        $this->set('Socialmedia', $Socialmedia);
     }
 
     /**

@@ -23,6 +23,7 @@ use Cake\Event\Event;
 use Cake\Network\Exception\NotFoundException;
 use Cake\Network\Request;
 
+
 /**
  * Static content controller
  *
@@ -42,16 +43,18 @@ class UsersController extends AppController {
      */
     public $username;
     public $email;
-    
+    public $userId;
+
     public function beforeFilter(\Cake\Event\Event $event) {
         parent::beforeFilter($event);
         $this->Auth->allow(['signup']);
         $this->UsersTable = TableRegistry::get('users');
         $this->ProfilesTable = TableRegistry::get('profiles');
-        $this->ContactTypeTable = TableRegistry::get('contact_type');
+        $this->SocialmediaTable = TableRegistry::get('socialmedia');
         $this->username = $this->Auth->user('username');
+        $this->userId = $this->Auth->user('id');
     }
-    
+
     /**
      * 
      * @return type
@@ -69,10 +72,24 @@ class UsersController extends AppController {
         }
         $this->set('users', $user);
         $this->set('title', 'Login');
+    }
+    
+    public function policy(){
         
     }
 
-    public function dashboard() {
+    public function dashboard() {  
+        
+        $fbConfig = $this->SocialmediaTable->find()->where(['socialmedia_type_id'=>1,'user_id'=>$this->userId])->first();
+        
+        $response = $this->fb_acc($fbConfig->app_id,$fbConfig->app_secret);
+        var_dump($response->getUser());
+        exit();
+        $response = $this->fb_config($fbConfig->app_id,$fbConfig->app_secret);
+        $me = $response->getGraphEdge();
+        var_dump($me->id());
+        //echo 'Logged in as ' . $me->getName();
+        exit();
         $Profile = $this->ProfilesTable->find()->where(['user_id' => $this->Auth->user('id')])->contain(['ContactType']);
         $profile = $this->ProfilesTable->newEntity();
         $contactType = $this->ContactTypeTable->find('list');
@@ -150,8 +167,8 @@ class UsersController extends AppController {
             $Prof = $this->ProfilesTable->get($id);
             if ($this->request->is(['post', 'put'])) {
                 $ProfileData = ['firstname' => $this->request->data('firstname'), 'surname' => $this->request->data('surname'), 'mobile' => $this->request->data('mobile'), 'email' => $this->request->data('email'), 'password' => $this->request->data('password'),
-                    'confirm_pass' => $this->request->data('confirm_pass'),'contact_type_id' => $this->request->data('contact_type_id'), 'date_of_birth' => $this->request->data('date_of_birth'), 'user_id' => $this->Auth->user('id')];
-                $Profile = $this->ProfilesTable->patchEntity($Prof,$ProfileData);
+                    'confirm_pass' => $this->request->data('confirm_pass'), 'contact_type_id' => $this->request->data('contact_type_id'), 'date_of_birth' => $this->request->data('date_of_birth'), 'user_id' => $this->Auth->user('id')];
+                $Profile = $this->ProfilesTable->patchEntity($Prof, $ProfileData);
                 if (empty($Profile->errors())) {
                     $this->ProfilesTable->save($Profile);
                     $status = '200';
