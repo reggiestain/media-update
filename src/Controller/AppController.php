@@ -71,10 +71,10 @@ class AppController extends Controller {
         ]);
     }
 
-    public function fb_config($appId, $appSecret) {
+    public function fb_config() {
         $fb = new fb([
-            'app_id' => $appId,
-            'app_secret' => $appSecret,
+            'app_id' => '358041774602493',
+            'app_secret' => '242cb6f60604ea9332fc28f754d32090',
             'default_graph_version' => 'v2.10',
                 //'default_access_token' => $appId|$appSecret
         ]);
@@ -82,15 +82,13 @@ class AppController extends Controller {
         return $fb;
     }
 
-    public function fb_acc($appId, $appSecret) {
-        $fb = $this->fb_config($appId, $appSecret);
+    public function fb_log() {
+        $fb = $this->fb_config();
         $helper = $fb->getRedirectLoginHelper();
-
-        $permissions = ['email']; // Optional permissions
-        $loginUrl = $helper->getLoginUrl('https://siyanontech.co.za/fb-callback.php', $permissions);
-        echo '<a href="' . htmlspecialchars($loginUrl) . '">Log in with Facebook!</a>';
-        exit();
-        //return $response;
+        //$permissions = ['email']; // Optional permissions
+        $loginUrl = $helper->getLoginUrl('https://siyanontech.co.za/users/login');
+        
+        return $loginUrl;
     }
 
     public function rest_api($appId, $appSecret, $accessToken) {

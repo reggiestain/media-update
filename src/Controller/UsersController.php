@@ -23,7 +23,6 @@ use Cake\Event\Event;
 use Cake\Network\Exception\NotFoundException;
 use Cake\Network\Request;
 
-
 /**
  * Static content controller
  *
@@ -61,6 +60,26 @@ class UsersController extends AppController {
      */
     public function login() {
         $user = $this->UsersTable->newEntity($this->request->data);
+
+        $fb = $this->fb_config();
+        $helper = $fb->getRedirectLoginHelper();
+        $accessToken = $helper->getAccessToken();
+
+        if (!isset($accessToken)) {
+            if ($helper->getError()) {
+                header('HTTP/1.0 401 Unauthorized');
+                echo "Error: " . $helper->getError() . "\n";
+                echo "Error Code: " . $helper->getErrorCode() . "\n";
+                echo "Error Reason: " . $helper->getErrorReason() . "\n";
+                echo "Error Description: " . $helper->getErrorDescription() . "\n";
+            } else {
+                header('HTTP/1.0 400 Bad Request');
+                echo 'Bad request';
+            }
+            // Logged in
+            echo '<h3>Access Token</h3>';
+            var_dump($accessToken->getValue());
+        }
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {
@@ -72,20 +91,22 @@ class UsersController extends AppController {
         }
         $this->set('users', $user);
         $this->set('title', 'Login');
+        $this->set('fb_login', $this->fb_log());
+        $this->set('fbuser', $fbuser);
     }
-    
-    public function policy(){
+
+    public function policy() {
         
     }
 
-    public function dashboard() {  
-        
-        $fbConfig = $this->SocialmediaTable->find()->where(['socialmedia_type_id'=>1,'user_id'=>$this->userId])->first();
-        
-        $response = $this->fb_acc($fbConfig->app_id,$fbConfig->app_secret);
+    public function dashboard() {
+
+        $fbConfig = $this->SocialmediaTable->find()->where(['socialmedia_type_id' => 1, 'user_id' => $this->userId])->first();
+
+        $response = $this->fb_acc($fbConfig->app_id, $fbConfig->app_secret);
         var_dump($response->getUser());
         exit();
-        $response = $this->fb_config($fbConfig->app_id,$fbConfig->app_secret);
+        $response = $this->fb_config($fbConfig->app_id, $fbConfig->app_secret);
         $me = $response->getGraphEdge();
         var_dump($me->id());
         //echo 'Logged in as ' . $me->getName();
