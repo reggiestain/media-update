@@ -70,8 +70,8 @@ class AppController extends Controller {
             ]
         ]);
     }
-
-    public function fb_config() {
+    
+    private function fb_config() {
         $fb = new fb([
             'app_id' => '358041774602493',
             'app_secret' => '242cb6f60604ea9332fc28f754d32090',
@@ -82,13 +82,43 @@ class AppController extends Controller {
         return $fb;
     }
 
-    public function fb_log() {
+    protected function fb_login() {
         $fb = $this->fb_config();
         $helper = $fb->getRedirectLoginHelper();
         //$permissions = ['email']; // Optional permissions
         $loginUrl = $helper->getLoginUrl('https://siyanontech.co.za/users/login');
-        
         return $loginUrl;
+    }
+
+    protected function fb_callback() {
+        $fb = $this->fb_config();
+        $helper = $fb->getRedirectLoginHelper();
+
+        try {
+            $accessToken = $helper->getAccessToken();
+        } catch (Facebook\Exceptions\FacebookResponseException $e) {
+            // When Graph returns an error
+            return 'Graph returned an error: ' . $e->getMessage();
+            exit;
+        } catch (Facebook\Exceptions\FacebookSDKException $e) {
+            // When validation fails or other local issues
+            return 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;
+        }
+
+        if (!isset($accessToken)) {
+            if ($helper->getError()) {
+                header('HTTP/1.0 401 Unauthorized');
+                echo "Error: " . $helper->getError() . "\n";
+                echo "Error Code: " . $helper->getErrorCode() . "\n";
+                echo "Error Reason: " . $helper->getErrorReason() . "\n";
+                echo "Error Description: " . $helper->getErrorDescription() . "\n";
+            } else {
+                header('HTTP/1.0 400 Bad Request');
+                return 'Bad request';
+            }
+        }
+
     }
 
     public function rest_api($appId, $appSecret, $accessToken) {

@@ -43,10 +43,12 @@ class UsersController extends AppController {
     public $username;
     public $email;
     public $userId;
+    public $fbConfig;
+
 
     public function beforeFilter(\Cake\Event\Event $event) {
         parent::beforeFilter($event);
-        $this->Auth->allow(['signup']);
+        $this->Auth->allow(['login']);
         $this->UsersTable = TableRegistry::get('users');
         $this->ProfilesTable = TableRegistry::get('profiles');
         $this->SocialmediaTable = TableRegistry::get('socialmedia');
@@ -54,7 +56,7 @@ class UsersController extends AppController {
         $this->userId = $this->Auth->user('id');
     }
 
-    /**
+    /**LuthandoBossman19
      * 
      * @return type
      */
@@ -80,6 +82,7 @@ class UsersController extends AppController {
             echo '<h3>Access Token</h3>';
             var_dump($accessToken->getValue());
         }
+        
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {
@@ -90,6 +93,7 @@ class UsersController extends AppController {
             $this->Flash->error(__('Invalid email or password.'));
         }
         $this->set('users', $user);
+        $this->set('fb_url', $this->fb_login());
         $this->set('title', 'Login');
         $this->set('fb_login', $this->fb_log());
         $this->set('fbuser', $fbuser);
@@ -99,27 +103,8 @@ class UsersController extends AppController {
         
     }
 
-    public function dashboard() {
-
-        $fbConfig = $this->SocialmediaTable->find()->where(['socialmedia_type_id' => 1, 'user_id' => $this->userId])->first();
-
-        $response = $this->fb_acc($fbConfig->app_id, $fbConfig->app_secret);
-        var_dump($response->getUser());
-        exit();
-        $response = $this->fb_config($fbConfig->app_id, $fbConfig->app_secret);
-        $me = $response->getGraphEdge();
-        var_dump($me->id());
-        //echo 'Logged in as ' . $me->getName();
-        exit();
-        $Profile = $this->ProfilesTable->find()->where(['user_id' => $this->Auth->user('id')])->contain(['ContactType']);
-        $profile = $this->ProfilesTable->newEntity();
-        $contactType = $this->ContactTypeTable->find('list');
-        $id = $this->Auth->user('id');
-        $this->set("id", $id);
-        $this->set('profile', $profile);
-        $this->set('contactType', $contactType);
-        $this->set('username', $this->username);
-        $this->set('Profile', $Profile);
+    
+    public function dashboard() {  
         $this->set('title', 'Dashboard');
         $this->viewBuilder()->layout('dashboard');
     }

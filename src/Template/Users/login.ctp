@@ -93,6 +93,7 @@ use Cake\Network\Exception\NotFoundException;
                 <div class="social-login-content">
                     <div class="social-button">
                         <a href="<?php echo $fb_login;?>" class="btn social facebook btn-flat btn-addon mb-3"><i class="ti-facebook"></i><?php echo $fbuser;?>Sign in with facebook</a>
+
                         <button type="button" class="btn social twitter btn-flat btn-addon mt-2"><i class="ti-twitter"></i>Sign in with twitter</button>
                     </div>
                 </div>

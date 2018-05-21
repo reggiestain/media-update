@@ -223,8 +223,8 @@ return [
              */
             //'port' => 'nonstandard_port_number',
             'username' => 'root',
-            'password' => '',
-            'database' => 'media-admin',
+            'password' => 'dev5',
+            'database' => 'media-update',
             'encoding' => 'utf8',
             'timezone' => '',
             'cacheMetadata' => false,
