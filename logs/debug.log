@@ -2801,3 +2801,750 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
 
 
 
+2018-06-06 13:01:30 Notice: Notice (8): Undefined variable: config in [/vagrant/www/project/src/Controller/AppController.php, line 140]
+Request URL: /users/login?code=AQAW9Q4LPTSf2UA1Ur78I7_9NxLCguRVj4xaL25AXhkVdvTI_RfR0pOu6zBz706e60OisgaKtMfnTaWHKDptCmu9S5FEZjcsx_yX7buo4nLRYlq0kHkgYakTVtVf1W262tDwwp3mS0L3f2TlR9jv5RSXfDwNcsJHHDURmJTvniKy7hdvQ1hwOg4Y1HJmdHyf-RwMyHJMxLv23QaayKrX5q7ghHEie2iWt-KlGpdZ_9w67ajAItt9xafVGb0OFD3Y0DXQ3h8R3nA6myZOhW-Kgtd8Nt2RGKZeNZb_92qVThSBuU7-V4h9xiqTDpUy6fG06BI&state=b6e75a07b741ddd2d9c3c2b1f489542e
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 140
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 66
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:07:36 Notice: Notice (8): Undefined variable: config in [/vagrant/www/project/src/Controller/AppController.php, line 140]
+Request URL: /users/login?code=AQAvfhZj2Q1NZxLgZ7rYUXlgE_KlkKiHweNPZzi6KRBRbjspyH9xnXaWh6BFbl3v0H6Nupb-8mY--AZ7HafbVeEdviFcKAyBFrricA3AoLydZi9eToCteDXeBesJm4bfo-cvNyXxtwODDMMU3UtkcdI5D8Le9BEov-2gxwIGfXtZyCOK2vHAi4POSmauV-pQpopHHEgQ5pGbfVTjFV_BQUAxwov_O36CX31vQpDBiIopLweBWO34ME997sWfYq9CT05mRy0hSQ3qIjXbLKNfbaIP9wonl7qiSXfHlYFcJxgS6qj2u71aHRleuf3l0bp1sRE&state=b6e75a07b741ddd2d9c3c2b1f489542e
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 140
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 66
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:12:22 Notice: Notice (8): Undefined variable: oHelper in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /users/login?code=AQAvfhZj2Q1NZxLgZ7rYUXlgE_KlkKiHweNPZzi6KRBRbjspyH9xnXaWh6BFbl3v0H6Nupb-8mY--AZ7HafbVeEdviFcKAyBFrricA3AoLydZi9eToCteDXeBesJm4bfo-cvNyXxtwODDMMU3UtkcdI5D8Le9BEov-2gxwIGfXtZyCOK2vHAi4POSmauV-pQpopHHEgQ5pGbfVTjFV_BQUAxwov_O36CX31vQpDBiIopLweBWO34ME997sWfYq9CT05mRy0hSQ3qIjXbLKNfbaIP9wonl7qiSXfHlYFcJxgS6qj2u71aHRleuf3l0bp1sRE&state=b6e75a07b741ddd2d9c3c2b1f489542e
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 66
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:23:45 Notice: Notice (8): Undefined variable: oAccessToken in [/vagrant/www/project/src/Controller/AppController.php, line 103]
+Request URL: /users/login?code=AQDu3ab2bxkBSR1LqfsGJzGIQx63aDligD7T9l4qD-hlZxozwD5B7OlDeNSdT9IdzQwnxjcX0dgCEIe_bA1O3E7GWmLRg7f3oYJy3AOYxzCg4fMVPBEA2GF2tzHF5DrgrINxdeapjWNAtc4WSj3nGYTQ0kd1D4HN335d1ku2M8QjFfyG6o0JeOZgw9gQWb8ZX4Y5yLsD7NgdHuP3xG2eBlnEiGX9k8D-VptcKX5X0BBE5-hAXm79TLTUxKuB2HIWARu9tj_9pO4RXwIyuX0Rg4tf6Twq_O93QCKWN3YnyRdrlUdzQSZ5hO1W2b92HFBuNfk&state=2d805d164b874d922a851da74b3f034e
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 103
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:50:56 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQBb4MjtUbVT5DV6U8KZ1tN3Lx-CC_BlMo7Ga8JbKpq2mT-3GB_MeLbNZXczvdpD9Rygg2m9zNWATBMokkc0gWw8O5Sm0nO1FjTUTf4C6LOCuTEIs_pBOuf8Zn-U_WLob_gGs77WhvCnp6aycksl0Q4UysRMZqAm2PBcFfERaeTXfBUa7tmChE-bYarIlDX9J652c-dfuLGG-kqL4XJfDFhQRcGzWtX4QvOvrFiiW2TWRv96ADxBH5F05hDE5t9Bmuuj_Isu687qFjOfUYAGZf6GcnghOKNT4FbSqVybc3IBSRimWZ70ilxvzoHqzAq0ktY&state=2d805d164b874d922a851da74b3f034e
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:50:57 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:53:13 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:53:32 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQDI8g_NAyvBg0xNHBSqHidbVpXIKLAjLf9KsetVRhKCilrV7iurcgY4M_d4eXAKJXhWvnl-sLzILRN7F5JvP_47UL-Fd9o3mfOx9_UhWczZ58q68aiCeW_fje3m9myb1vFODf7NSYLzPtqrJXZbvQ1VpuuUux_a47-XwTMVVb9PpH5IWJFuX2R-96PDzERbvYpK6KUkdPwZm_PBM_gg3EgMpng3ntZbQx1Qfi7m46aMZEZs3yzePN4InoN33_8yG5cgYCztpLQTFVyAYQJd05Ys4n7dcqixfeFRBcULHZerLb7rHlJOZKdYpxfzSPjc-lQ&state=77ada016a4dc55839399e1de86de3f56
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:53:32 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:54:06 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQADFzNbNlQwiSjh5rBKLULRhVGsth7ihMcueq-hy66LG3tyZX-SYjZFojWz1Xz0sna3Xa2NOVVZe0eTssBYJpqADYIg8P9F9lnUEkKjoz6lH3tROOQYrmP3xzFXkQd5hREcyGprAbrXCc0FyoLxHMrPS9bBBcODmioJxSf7Sh7lyhk-NTxOC-N1Fqtr2h4V8ERxQRfU3zDaZDcfhDoCUMtmwcoHEsgzfb2RKhGgn4Bm8CHX-sL6eU5a9PIMd0DC0npm1qQV4ERSSzNKuj598GWf3aWbn6ouuw4HiOF7CSK0WwgzGGkkYIIOz6YszLsowD8&state=783aaed5e63a4c2f3601bef804dfbc06
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:54:06 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:56:00 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:56:03 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:56:26 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQASTfhdOlT5P-iS_erYOliCPtxJ08hGogGsrsmOp-LpTwSPNzmDEUs3tTFc4_MLCZlUVRH3nDq2M-dVdx8BH6GlpwwIK-RQkF-z8KGIqpYT-F2Ji8rOpk_nOiBQLsn9ZVDzHUTU-KwtyqkH8BPVnk-EQpyF4mimNboCayu1tMmcioXkTOG6ySGWwxQC4YupZqoLdHmOWnxS1Y3uE7wXBn0jQoZOd3KtHyxH3es2R_2diJ-S-T3tCCa2tKAf5BoPhDMZLkiUSJpWIh1eFsL2VpGTf0rqTElTmSHKR6RTj3-2J1PVC_GDdbxGBMLugcZzEyk&state=2d805d164b874d922a851da74b3f034e
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:56:27 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:56:35 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:57:42 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQBfg8xQE2sjsCagv_gEakq4AqLHUgVdW_sQVVy2n_Z68V8cT-k0ekj-RWT7zrEI0_sWBgF75RSV8cmyy1B4WOEuzIypJWhW5S5uE8Okyc2rR8bCp9kLqqF5n21E4ga7pAl5vKia9sgZKI6AyIaSoK2bKPN3kxHZ4M4oLKHqv_wXStQNG1uhz7jARuccHvLw8pxTcd-fS7gp26AK5mnhkZBSuJjaTYFUkctpp--l1buNSu_pYz-HObIOWypmbIfX6W4Litz-ZQ_NTl67aLCw9hUasVoVlwrIjsLWshYtlc3WHv3bkKIwZvorcJ_7D3uAVok&state=0dc7bc9179020143af21e1d8e64b0eef
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 13:58:28 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQBvwEcHZ6VYmZmdzSI7EUKUoFjwqAkx4ktcRITkWo8pTCYRaLmv6Dn1l_QReswX8IMe1zl2JhTCyMy9L6gFjpop9V0knP7-QKDbtAODmN3VXywlUJHPdWHgVVWxcRgaj5BkhuvqhnqhhiN7eCEJ5wdAE2_08LHdc7cTMxhfdnk6gYwsgiM3QBGuVxN-xgPc2rdUQduksb1sszdxHM623Y8LNdjKJpu1q5gms0ZTi1eqodfCJktqgotQEKyY3eggPkbzAD7J366kC7eN9aC3v-Fwc2mWid-EGVyExaJUPQ3Kxlqx0LcAphnBNVcd7oDbS24&state=84d3ed105b097413d616419c4ec8ddf7
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:01:07 Notice: Notice (8): Undefined index: education in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQDWruJGx8CXzpQ_s4cwtwQyAzrLRFb9g8F_rCeuEj3s8u9VksNnFu9eHGXFjnZztrQpYly4zV7AZutWbwIChjcdpTEMZ3bTVqnk2x5UPAvMvQKxvAnH3kEHBFCQBQaBf5UySSpqyMFMv8QtiEvfX1QyuJrMoMiYFaWZu6-quiyGtYVRc2QEaCLeU9nEERuvzLkMN8IA0aWIOcryNz1dIcNs1H3DXx45gbO4IAJ80pRgDuvERBWgtS__Cizhh-D0gzQHAkruFiE0LHH1Cy9I7JEyQ_f1RhFr3ttiBX40Q8JUwRujpnNs-4FrOiSgeWp-kzI&state=84d3ed105b097413d616419c4ec8ddf7
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:06:35 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:06:50 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:07:17 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:07:38 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 100]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 100
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 67
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:08:01 Notice: Notice (8): Undefined index: address in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQDYFWhkuxlr-zD4nJ7TPUTpNI9SBHh_q9rNbF7_D9gff50CrJfZQDkvnrzSyXLUsS18wgFdEWP-gmai4d-VzF8NAyqHNpATVMM9prpaF-rFoxVgGtTqdV-mgj7W2OtRYaGm2daUPEKiTqUDUwOMDJdQtksQADjbj-ir1CvUHGYitkboIImTJ19jttmm35XK5STFrOUHyHnw3yULx6VnOJ23GDZOaXjd8VKfnq8vrp0SB6huq3RCntRk9ASw_7FTHrX1SWNa_e7bpmoNu3-mpAXRSsXDZRs6KRgtqb8-c96HLBDnieBIxGhgS0IQOLxPC5s&state=a220a7093f029d179427e7dfc29b8bd0
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:08:01 Notice: Notice (8): Undefined index: first_name in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQDYFWhkuxlr-zD4nJ7TPUTpNI9SBHh_q9rNbF7_D9gff50CrJfZQDkvnrzSyXLUsS18wgFdEWP-gmai4d-VzF8NAyqHNpATVMM9prpaF-rFoxVgGtTqdV-mgj7W2OtRYaGm2daUPEKiTqUDUwOMDJdQtksQADjbj-ir1CvUHGYitkboIImTJ19jttmm35XK5STFrOUHyHnw3yULx6VnOJ23GDZOaXjd8VKfnq8vrp0SB6huq3RCntRk9ASw_7FTHrX1SWNa_e7bpmoNu3-mpAXRSsXDZRs6KRgtqb8-c96HLBDnieBIxGhgS0IQOLxPC5s&state=a220a7093f029d179427e7dfc29b8bd0
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 70
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:08:01 Notice: Notice (8): Undefined index: last_name in [/vagrant/www/project/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201]
+Request URL: /users/login?code=AQDYFWhkuxlr-zD4nJ7TPUTpNI9SBHh_q9rNbF7_D9gff50CrJfZQDkvnrzSyXLUsS18wgFdEWP-gmai4d-VzF8NAyqHNpATVMM9prpaF-rFoxVgGtTqdV-mgj7W2OtRYaGm2daUPEKiTqUDUwOMDJdQtksQADjbj-ir1CvUHGYitkboIImTJ19jttmm35XK5STFrOUHyHnw3yULx6VnOJ23GDZOaXjd8VKfnq8vrp0SB6huq3RCntRk9ASw_7FTHrX1SWNa_e7bpmoNu3-mpAXRSsXDZRs6KRgtqb8-c96HLBDnieBIxGhgS0IQOLxPC5s&state=a220a7093f029d179427e7dfc29b8bd0
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+Facebook\GraphNodes\Collection::offsetGet() - ROOT/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php, line 201
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 70
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:37:53 Notice: Notice (8): Undefined variable: http in [/vagrant/www/project/src/Controller/UsersController.php, line 69]
+Request URL: /users/login?code=AQC8vAl4x4ZdiNJEdC8uqIF5knfkPc0Tk0PnLf-JYbw5k02ayuQ_pZK-B0_xoVZOxLy4jz7lSvuGl3vHmNkoimQEtNlovrKGNkMufdjbZW_xLPPDPWo3emvJFh39_bq5bFR0pGkDGaf5cpfoeaY6ivdUHjunG6SE1i3lBr12S9P8lGnXicbH-WOr_kVrSFGFgz_zGKh75yLV_tAbEuKa3041s34adtijgBSGTMLe_i8zdluvttkh6JYTyI1UNx3xKsFO3Oaunw5fdmAXxHIZ_NPDQZPZI4pPLa63RGB_4jdyX3wXRhOYKUGshAkuZ8xwEUc&state=a220a7093f029d179427e7dfc29b8bd0
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 14:48:21 Notice: Notice (8): Undefined variable: http in [/vagrant/www/project/src/Controller/UsersController.php, line 70]
+Request URL: /users/login?code=AQDOFu2TEkYvFAuBlyA9SLXQDDxb5fXnD4_4LM9wATaogOdEbYVQmh_0LdbD9mljXo-nuZxmNhJg0LDnU_TPsbptx83sl3z0j1SDV7cgrVRihflRhsh8IAqgauRV0l5O36KawokAitp2RLHkb6MV10sco4PtrSwL8pHnPl4ndGlaVq5a8eJF9_aEjJZVmpbe5ZY6jFDwiHG_fkheygW0lm1O8iW6e5Q_KKtMO2Lti9eFzRvjFswV_wgE5H5TOBMesgX9lRXgkM1LuxTzoGiHgr7Rd4erlD-oQc-l8rRCF5tdyICq0M-tuhV4awgGP_25HMA&state=a220a7093f029d179427e7dfc29b8bd0
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 70
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 15:24:48 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 15:30:45 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 15:57:49 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 15:57:49 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 15:59:22 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:00:17 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:00:20 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:00:58 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:01:40 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:01:46 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:02:01 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 68
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:02:21 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /users/dashboard
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::dashboard() - APP/Controller/UsersController.php, line 110
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:03:48 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /users/dashboard
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::dashboard() - APP/Controller/UsersController.php, line 109
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:05:16 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:05:20 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:10:13 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:10:32 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /users/dashboard
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::dashboard() - APP/Controller/UsersController.php, line 109
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:12:03 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /users/dashboard
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::dashboard() - APP/Controller/UsersController.php, line 108
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:12:11 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::login() - APP/Controller/UsersController.php, line 69
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-06-06 16:12:32 Notice: Notice (8): Undefined index: state in [/vagrant/www/project/src/Controller/AppController.php, line 111]
+Request URL: /users/dashboard
+Referer URL: https://www.facebook.com/
+Client IP: 10.11.12.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\AppController::fb_callback() - APP/Controller/AppController.php, line 111
+App\Controller\UsersController::dashboard() - APP/Controller/UsersController.php, line 108
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 121
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+

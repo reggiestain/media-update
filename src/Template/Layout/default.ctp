@@ -47,11 +47,11 @@ $cakeDescription = '';
     <body class="bg-dark">
        <?php echo $this->fetch('content');?>
        <?php //echo $this->element('footer');?>
-        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
         <?php echo $this->Html->script('vendor/jquery-2.1.4.min');?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
         <?php echo $this->Html->script('plugins');?>
-        <?php echo $this->Html->script('main');?>       
+        <?php //echo $this->Html->script('main');?> 
+        <?php echo $this->Html->script('facebook');?>
 
         <?php echo $this->Html->script('lib/chart-js/Chart.bundle');?>   
         <?php echo $this->Html->script('dashboard.js');?> 
@@ -60,5 +60,12 @@ $cakeDescription = '';
         <?php echo $this->Html->script('lib/vector-map/jquery.vmap.min');?>  
         <?php echo $this->Html->script('lib/vector-map/jquery.vmap.sampledata');?>
         <?php echo $this->Html->script('lib/vector-map/country/jquery.vmap.world');?>
+        <script>
+            $(document).ready(function () {
+
+
+                
+            });
+        </script>
     </body>
 </html>

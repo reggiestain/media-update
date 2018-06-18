@@ -24,6 +24,7 @@ use Cake\Network\Exception\NotFoundException;
 use Cake\Network\Request;
 use Facebook\GraphNodes\GraphUser as guser;
 
+
 /**
  * Static content controller
  *
@@ -56,13 +57,32 @@ class UsersController extends AppController {
         $this->userId = $this->Auth->user('id');
     }
 
-    /*     * LuthandoBossman19
+    /*  
      * 
      * @return type
      */
-
+    //LuthandoBossman19
     public function login() {
         $user = $this->UsersTable->newEntity($this->request->data);
+        //Facebook User Array
+          
+        if($fbArray = $this->fb_callback()){
+           // $res =  $http->get('https://graph.facebook.com/v3.0/'.$fbArray['id']);           
+            $ProfileData = ['firstname' =>$fbArray['first_name'] ,'lastname' =>$fbArray['last_name'],
+                            'email'=>$fbArray['email'],'photo'=>$fbArray['picture'],'password'=>rand(5, 15) ];
+            $Profile = $this->UsersTable->patchEntity($user, $ProfileData);
+            if($fuser = $this->UsersTable->save($Profile) or $fuser = $this->UsersTable->find()->where(['lastname'=>$fbArray['last_name']])->first()){              
+               //$fuser = $this->Auth->identify();              
+               if ($fuser) {
+                $this->Auth->setUser($fuser);
+                $this->Flash->success(__('Welcome , ' . $this->Auth->user('email')));
+                return $this->redirect(['action' => 'dashboard']);
+               }
+              $this->Flash->error(__('Invalid email or password.'));
+             }  
+             $this->Flash->error(__('Email has already been registered.'));
+        }
+        
         
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
@@ -76,16 +96,14 @@ class UsersController extends AppController {
         $this->set('users', $user);
         $this->set('fb_url', $this->fb_login());
         $this->set('title', 'Login');
+        //$this->set('state', $_SESSION['FBRLH_state']);
     }
 
     public function policy() {
-        
+       
     }
 
     public function dashboard() {
-        
-        $this->fb_callback();
-        
         $this->set('title', 'Dashboard');
         $this->viewBuilder()->layout('dashboard');
     }
@@ -95,7 +113,7 @@ class UsersController extends AppController {
             $ProfileEntity = $this->ProfilesTable->newEntity();
             $ProfileData = ['firstname' => $this->request->data('firstname'), 'surname' => $this->request->data('surname'), 'mobile' => $this->request->data('mobile'), 'email' => $this->request->data('email'), 'password' => $this->request->data('password'),
                 'confirm_pass' => $this->request->data('confirm_pass'), 'contact_type_id' => $this->request->data('contact_type_id'), 'date_of_birth' => $this->request->data('date_of_birth'), 'user_id' => $this->Auth->user('id')];
-            $Profile = $this->ProfilesTable->patchEntity($ProfileEntity, $ProfileData);
+            
             if (empty($Profile->errors())) {
                 $this->ProfilesTable->save($Profile);
                 $status = '200';

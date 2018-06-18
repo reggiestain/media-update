@@ -82,14 +82,24 @@ class AppController extends Controller {
         return $fb;
     }
 
+    protected function rest() {
+        $http = new Client();
+        return $http;
+    }
+
     protected function fb_login() {
         $fb = $this->fb_config();
         $helper = $fb->getRedirectLoginHelper();
         $permissions = array(
-            
-            'email'
+            'email',
+            'user_gender',
+            'user_hometown',
+            'user_friends',
+            'user_location',
+            'user_birthday',
+                //'user_education_history'
         );
-        $loginUrl = $helper->getLoginUrl('https://siyanontech.co.za/users/dashboard',$permissions);
+        $loginUrl = $helper->getLoginUrl('https://server01.local/users/login', $permissions);
         return $loginUrl;
     }
 
@@ -97,6 +107,19 @@ class AppController extends Controller {
         $fb = $this->fb_config();
 
         $helper = $fb->getRedirectLoginHelper();
+        
+        $AccessToken = $helper->getAccessToken();
+        if ($AccessToken !== null) {
+
+            $Response = $fb->get('/me?fields=id,first_name,last_name,email,picture,location', $AccessToken);
+
+            return $Response->getGraphUser();
+        }
+    }
+
+    public function functionName($param) {
+        $helper = $fb->getRedirectLoginHelper();
+        $_SESSION['FBRLH_state'] = $_GET['state'];
 
         try {
             $accessToken = $helper->getAccessToken();
@@ -126,18 +149,16 @@ class AppController extends Controller {
 
 // Logged in
         echo '<h3>Access Token</h3>';
-        var_dump($accessToken->getValue());
-
+        //var_dump($accessToken->getValue());
 // The OAuth 2.0 client handler helps us manage access tokens
         $oAuth2Client = $fb->getOAuth2Client();
 
 // Get the access token metadata from /debug_token
         $tokenMetadata = $oAuth2Client->debugToken($accessToken);
         echo '<h3>Metadata</h3>';
-        var_dump($tokenMetadata);
-
+        //var_dump($tokenMetadata);
 // Validation (these will throw FacebookSDKException's when they fail)
-        $tokenMetadata->validateAppId($config['app_id']);
+        $tokenMetadata->validateAppId($config['358041774602493']);
 // If you know the user ID this access token belongs to, you can validate it here
 //$tokenMetadata->validateUserId('123');
         $tokenMetadata->validateExpiration();
@@ -152,7 +173,7 @@ class AppController extends Controller {
             }
 
             echo '<h3>Long-lived</h3>';
-            var_dump($accessToken->getValue());
+            //var_dump($accessToken->getValue());
         }
 
         $_SESSION['fb_access_token'] = (string) $accessToken;
@@ -170,6 +191,12 @@ class AppController extends Controller {
             'auth' => ['app_id' => $appId, 'app_secret' => $appSecret]
         ]);
         return $response;
+    }
+
+    public function generate_password($length = 8) {
+        $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+;:,.?";
+        $password = substr(str_shuffle($chars), 0, $length);
+        return $password;
     }
 
 }

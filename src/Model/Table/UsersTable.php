@@ -44,8 +44,16 @@ class UsersTable extends Table {
     }
 
     public function validationDefault(Validator $validator) {
-        $validator->notEmpty('email', 'First name is required.')
-                ->notEmpty('password', 'Password is required.');
+        $validator->notEmpty('firstname', 'First name is required.')
+                ->notEmpty('lastname', 'surname is required.')
+                ->notEmpty('email', 'Email is required.')
+                ->add('email', ['unique' => [
+                        'rule' => 'validateUnique',
+                        'provider' => 'table',
+                        'message' => 'This email already exist.']
+                        ]
+                );
+                //->notEmpty('mobile', 'Mobile number is required.');
                 
         return $validator;
     }

@@ -52,8 +52,8 @@ use Cake\Network\Exception\NotFoundException;
     <div class="container">
         <div class="login-content">
             <div class="login-logo">
-                <a href="index.html">
-                    <img class="align-content" src="images/logo.png" alt="">
+                <a href="#">
+                    <!--<img class="align-content" src="images/logo.png" alt="">-->
                 </a>
             </div>
             <div class="login-form">
